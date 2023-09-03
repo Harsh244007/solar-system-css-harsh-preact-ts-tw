@@ -1,5 +1,6 @@
 export function App() {
   return (
+    <>
     <div className="container relative w-40 h-40">
       <div className="sun absolute top-15 left-13 w-10 h-10 rounded-full shadow-2xl bg-yellow-300"></div>
       <div className="earth absolute top-5 left-3 w-30 h-30 border-solid border-white border-t-0.1 border-r-0.1 rounded-full animate-orbit">
@@ -72,5 +73,8 @@ export function App() {
 }
 `}</style>
     </div>
+    
+    <p>Made by Harsh with ❤️</p>
+    </>
   );
 }
