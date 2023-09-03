@@ -21,7 +21,7 @@ export function App() {
   border-radius: 50%;
   box-shadow: 0 0 3em white;
   background-color: yellow;
-  left: 13em;
+  left: 15em;
 }
 .earth,
 .moon {
@@ -33,7 +33,7 @@ export function App() {
 }
 .earth {
   top: 5em;
-  left: 3em;
+  left: 5em;
   position: relative;
   width: 30em;
   animation: orbit 36.5s linear infinite;
