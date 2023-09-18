@@ -55,7 +55,7 @@ export function App() {
           .star{
             position:absolute;
             background-color:white;
-            animation:starAnimation 3s infinite;
+            animation:starAnimation 2.5s infinite;
             border-radius:50%;
             z-index:-1;
           }
