@@ -59,7 +59,6 @@ export function App() {
             border-radius:50%;
             z-index:-1;
           }
-          
           @keyframes starAnimation{
             0%{
               transform:scale(1);
