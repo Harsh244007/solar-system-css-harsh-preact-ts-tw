@@ -55,8 +55,26 @@ export function App() {
           .star{
             position:absolute;
             background-color:white;
+            animation:starAnimation 2s infinite;
             border-radius:50%;
             z-index:-1;
+          }
+          @keyframes starAnimation{
+            0%{
+              transform:scale(1);
+            }
+            25%{
+              transform:scale(0.5);
+            }
+            50%{
+              transform:scale(1);
+            }
+            75%{
+              transform:scale(2.5);
+            }
+            100%{
+              transform:scale(1);
+            }
           }
           .sun {
             position: absolute;
