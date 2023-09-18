@@ -29,13 +29,10 @@ export function App() {
 
   const stars = useMemo(() => generateStars(), []);
 
-  // useEffect(() => {
-  //   document.body.style.background =
-  //     window.location.hostname ==
-  //     "solar-system-css-harsh-preact-ts-tw.vercel.app"
-  //       ? "#1c1917"
-  //       : "transparent";
-  // }, []);
+  useEffect(() => {
+    document.body.style.background =
+      window.location.href.includes("iframeUrl")? "transparent": "#1c1917";
+  }, []);
   return (
     <>
       <div className="stars">
