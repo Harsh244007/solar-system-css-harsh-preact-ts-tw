@@ -52,6 +52,7 @@ export function App() {
             height: 40em;
             position: relative;
           }
+          
           .star{
             position:absolute;
             background-color:white;
